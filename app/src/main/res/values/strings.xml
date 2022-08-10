@@ -8,4 +8,6 @@
     <string name="insira_sua_senha">Insira sua senha</string>
     <string name="insira_seu_e_mail">Insira seu e-mail</string>
     <string name="imagem_principal">Imagem principal</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

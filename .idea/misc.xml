@@ -3,16 +3,35 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/candidatos_layout.xml" value="0.2" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/activity_main.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/conteudo_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/fragment_recrutadores.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/fragment_talentos.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/fragment_vagas.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/inner_layout.xml" value="0.22" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/janela_componentes_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/janela_coordnator_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/janela_frame_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/janela_relative_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/janela_table_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/login_layout.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/menu_principal_layout.xml" value="0.24114583333333334" />
-        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/parcerias_layout.xml" value="0.21944444444444444" />
-        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/menu/menu_bottom_bar.xml" value="0.21944444444444444" />
-        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/menu/menu_parcerias.xml" value="0.21944444444444444" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/modelo_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/modelo_recrutadores.xml" value="0.25" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/parcerias_layout.xml" value="0.23646578140960164" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/perfil_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/splash_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/talentos_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/layout/vagas_layout.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/menu/menu_bottom_bar.xml" value="0.1" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/menu/menu_bottom_nav_view.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/kayke.sandrade/MySkout-main/app/src/main/res/menu/menu_parcerias.xml" value="0.1" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/borda_botao.xml" value="0.1195" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/botao_desenho.xml" value="0.164" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/drawable/ic_baseline_email.xml" value="0.1655" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/activity_main.xml" value="0.3234375" />
-        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/candidatos_layout.xml" value="0.3234375" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/candidatos_layout.xml" value="0.293790546802595" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/conteudo_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/inner_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_componentes_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_coordnator_layout.xml" value="0.3375" />
@@ -21,11 +40,14 @@
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/janela_table_layout.xml" value="0.25" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/login_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/menu_principal_layout.xml" value="0.29907407407407405" />
-        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/parcerias_layout.xml" value="0.3375" />
-        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/recrutadores_layout.xml" value="0.3375" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/modelo_recrutadores.xml" value="0.5" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/parcerias_layout.xml" value="0.18" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/recrutadores_layout.xml" value="0.25" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/splash_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/talentos_layout.xml" value="0.3375" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/layout/vagas_layout.xml" value="0.3234375" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/menu/menu_bottom_bar.xml" value="0.33645833333333336" />
+        <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/menu/menu_bottom_nav_view.xml" value="0.33645833333333336" />
         <entry key="..\:/Users/laercio.nsilva/Documents/ProjetoAndroid/MySkout/app/src/main/res/menu/menu_parcerias.xml" value="0.33645833333333336" />
       </map>
     </option>

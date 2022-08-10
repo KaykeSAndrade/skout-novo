@@ -11,7 +11,7 @@ import android.widget.Toast;
 import com.google.android.material.bottomappbar.BottomAppBar;
 
 public class CandidatosActivity extends AppCompatActivity {
-    //Declarando as variavel para apresentar para o java
+    //Declarando variavel para apresentar para o Java
     BottomAppBar bottomAppBar;
 
     @Override
@@ -19,14 +19,13 @@ public class CandidatosActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.candidatos_layout);
 
-        //Apresentando o xml ao Java
+        //Apresentando o xml oa Java
         bottomAppBar = findViewById(R.id.bottomBarCandidatos);
 
         //Clicando nos itens de menu
         bottomAppBar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-
                 switch (item.getItemId()) {
                     case R.id.mBottomAlterar:
                         Toast.makeText(getApplicationContext(),
@@ -35,19 +34,20 @@ public class CandidatosActivity extends AppCompatActivity {
                         break;
                     case R.id.mBottomExcluir:
                         Toast.makeText(getApplicationContext(),
-                                "Cliquei no botão alterar",
+                                "Cliquei no botão excluir",
                                 Toast.LENGTH_SHORT).show();
                         break;
                     case R.id.mBottomPesquisar:
                         Toast.makeText(getApplicationContext(),
-                                "Cliquei no botão alterar",
+                                "Cliquei no botão pesquisar",
                                 Toast.LENGTH_SHORT).show();
                         break;
                 }
-                return false;
+                return true;
             }
         });
-        //Clicando no icone de navegação do bottomBar
+
+        //Clicando no ícone de navegação do bottomBar
         bottomAppBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,7 +57,6 @@ public class CandidatosActivity extends AppCompatActivity {
             }
         });
 
-    }
 
-    ;
+    }
 }

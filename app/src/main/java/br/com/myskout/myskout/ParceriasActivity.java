@@ -13,9 +13,8 @@ import android.widget.Toast;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ParceriasActivity extends AppCompatActivity {
-    //Criando a variavel para o botão Fab parcerias
+    //Criando a variavel para o botão FAB parcerias
     FloatingActionButton fabParcCadastrar;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +22,9 @@ public class ParceriasActivity extends AppCompatActivity {
         setContentView(R.layout.parcerias_layout);
 
         //Apresentar o xml ao Java
-        fabParcCadastrar = findViewById(R.id.fabCadastrar);
+        fabParcCadastrar = findViewById(R.id.fabParcCadastrar);
 
-        //Criando o clieque no botão Fab parcerias
+        //Criar o clique no botão FAB parcerias
         fabParcCadastrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,20 +33,23 @@ public class ParceriasActivity extends AppCompatActivity {
                         Toast.LENGTH_SHORT).show();
             }
         });
+
+
     }
 
-    //Criando e adicionando o Menu no activity parcerias
+    //Criando e adicionando o menu na activity parcerias
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //instanciando o menu
+        //Instanciando o menu
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_parcerias, menu);
 
         return super.onCreateOptionsMenu(menu);
     }
+    //Criando os cliques nos itens de menu
 
-    //Criando os cliques nos itens menu
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
@@ -56,22 +58,22 @@ public class ParceriasActivity extends AppCompatActivity {
                         "Cliquei em Alterar",
                         Toast.LENGTH_SHORT).show();
                 break;
-                case R.id.mParcExcluir:
-                    Toast.makeText(getApplicationContext(),
-                            "Cliquei em Excluir",
-                            Toast.LENGTH_SHORT).show();
-                    break;
-                    case R.id.mParcPesquisar:
-                        Toast.makeText(getApplicationContext(),
-                                "Cliquei em Pesquisar",
-                                Toast.LENGTH_SHORT).show();
-                        break;
-                        case R.id.mParcSair:
-                            Toast.makeText(getApplicationContext(),
-                                    "Cliquei em Sair",
-                                    Toast.LENGTH_SHORT).show();
-                            break;
-                    }
-                    return super.onOptionsItemSelected(item);
-                }
-            }
+            case R.id.mParcExcluir:
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei em Excluir",
+                        Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mParcPesquisar:
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei em Pesquisar",
+                        Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.mParcSair:
+                Toast.makeText(getApplicationContext(),
+                        "Cliquei em Sair",
+                        Toast.LENGTH_SHORT).show();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+}
