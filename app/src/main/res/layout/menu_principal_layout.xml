@@ -15,7 +15,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="418dp"
+            android:layout_width="410dp"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="centerCrop"
@@ -32,9 +32,11 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_width="280dp"
+            android:layout_height="99dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="4dp"
+            android:background="#7E7A7A">
 
 
             <TextView
@@ -46,9 +48,9 @@
                 android:fontFamily="@font/ubunturegular"
                 android:shadowColor="#43A047"
                 android:shadowRadius="5"
-                android:text="Hamburguer"
+                android:text="X-Frango"
                 android:textColor="#FFC107"
-                android:textSize="30sp"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -58,23 +60,29 @@
                 android:layout_marginLeft="3dp"
                 android:text="R$ 40"
                 android:textColor="#4CAF50"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/txtDescricao"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity=""
-                android:layout_marginLeft="3dp"
-                android:layout_marginTop="15dp"
-                android:fontFamily="@font/ubunturegular"
-                android:shadowColor="#43A047"
-                android:shadowRadius="5"
-                android:text="Colocar a descrição do prato"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"
-                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="45dp">
+                <TextView
+                    android:id="@+id/txtDescricao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity=""
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/ubunturegular"
+                    android:shadowColor="#43A047"
+                    android:shadowRadius="5"
+                    android:text="PÃO, FILÉ DE FRANGO, MUSSARELA, ALFACE, TOMATE E MILHO."
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
 
         </LinearLayout>
 
@@ -82,7 +90,7 @@
             android:layout_width="110dp"
             android:layout_height="50dp"
             android:layout_gravity="end"
-            android:layout_marginRight="10sp"
+            android:layout_marginRight="5dp"
             android:orientation="horizontal">
 
             <Button
@@ -114,28 +122,29 @@
 
     </LinearLayout>
 
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        android:id="@+id/linearLayout"
+
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="410dp"
-        android:layout_height="280dp"
-        android:layout_marginTop="10dp"></LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="22dp"
+        android:gravity="center"
+        android:background="#7E7A7A">
 
         <TextView
-            android:id="@+id/txtIngredientes"
+            android:id="@+id/txtAdicional"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="3dp"
+            android:layout_gravity="center"
+
             android:layout_marginBottom="2dp"
-            android:text="Ingredientes:"
+            android:text="PERSONALIZE SEU LANCHE:"
             android:textColor="#FFFF"
-            android:textSize="20dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
             tools:layout_editor_absoluteX="3dp"
             tools:layout_editor_absoluteY="6dp" />
 
@@ -164,7 +173,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="240dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginLeft="130dp"
             android:layout_marginTop="10dp"
@@ -223,7 +232,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="240dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="10dp"
@@ -282,7 +291,7 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="240dp"
+            android:layout_width="120dp"
             android:layout_height="50dp"
             android:layout_marginLeft="145dp"
             android:layout_marginTop="10dp"
